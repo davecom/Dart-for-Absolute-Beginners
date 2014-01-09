@@ -1,0 +1,13 @@
+#strike_text {
+  color: red;
+}
+
+#left_text {
+  color: black;
+}
+
+#card_box {
+  width: 400px;
+  height: 400px;
+  background-color:beige;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmicalculator.css">
+  </head>
+  <body>
+    <h2>BMI Calculator</h2>
+    <input type="number" id="weight_input"><span id="weight_units">pounds</span>
+    <br>
+    <input type="number" id="height_input"><span id="height_units">inches</span>
+    <br>
+    <input type="radio" id="unit_type1" name="unit_type" value="imperial" checked>imperial
+    <input type="radio" id="unit_type2" name="unit_type" value="metric">metric
+    <br>
+    <input type="submit" id="submit" value="Calculate">
+    <h3 id="result1"></h3>
+    <h3 id="result2"></h3>
+    <script type="application/dart" src="bmicalculator.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

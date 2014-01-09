@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Word Scramble</title>
+    <link rel="stylesheet" href="wordscramble.css">
+  </head>
+  <body>
+    <h1>Word Scramble</h1>
+    <h3>You have <span id="seconds_left"></span> seconds remaining.</h3>
+    <h2 id="scrambled_word"></h2>
+    <input type="text" id="guess">
+    <h2><span id="num_correct">0</span> Correct</h2>
+    <h2><span id="num_missed">0</span> Missed</h2>
+
+    <script type="application/dart" src="wordscramble.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
