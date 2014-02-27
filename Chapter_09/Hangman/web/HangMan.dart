@@ -35,7 +35,7 @@ void playLetter(String letter) {
     lettersLeft = lettersLeft.replaceFirst(new RegExp(letter), '');
     querySelector("#letter_list").text = lettersLeft;
     
-    //put the letter into the secret word
+    // put the letter into the secret word
     if (secretWord.contains(letter)) {
       String oldDisplay = querySelector("#secret").text;  // what the user sees
       String newDisplay = "";  // what we will soon show the user

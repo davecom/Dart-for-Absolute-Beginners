@@ -43,11 +43,11 @@ void reset() {
 /// or not; also flips cards when clicked
 void cardClicked(MouseEvent event) {
   ImageElement clickedCard = event.target; // which card was clicked
-  //if the card's already turned over, ignore
+  // if the card's already turned over, ignore
   if (!clickedCard.src.endsWith(CARD_BACK)) {
     return;
   }
-  //otherwise flip it over
+  // otherwise flip it over
   int clickedNumber = int.parse(clickedCard.alt); // thing we stored
   clickedCard.src = cards[clickedNumber];
   
@@ -59,11 +59,11 @@ void cardClicked(MouseEvent event) {
       cardsLeft -= 2;
       querySelector("#num_left").text =  cardsLeft.toString();
       
-    } else { //we have a strike!
+    } else { // we have a strike!
       strikes++;
       querySelector("#num_strikes").text =  strikes.toString();
       
-      //flip them back after 2 seconds
+      // flip them back after 2 seconds
       ImageElement tempClicked = lastClicked;
       Timer t = new Timer(const Duration(seconds: 2), () {
         clickedCard.src = CARD_BACK;
