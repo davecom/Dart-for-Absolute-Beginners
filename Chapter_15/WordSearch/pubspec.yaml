@@ -1,0 +1,6 @@
+name: WordSearch
+description: An application for generating word searches.
+dependencies:
+  browser: any
+  constrained: any
+  unittest: any

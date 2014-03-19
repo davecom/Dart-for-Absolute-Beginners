@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Word Search</title>
+    <link rel="stylesheet" href="wordsearch.css">
+  </head>
+  <body>
+    <h1>Word Search</h1>
+    
+    Grid Width
+    <input id="grid_width" type="number" value="20">
+    Grid Height
+    <input id="grid_height" type="number" value="20">
+    <br>
+    Word List (comma separated)
+    <textarea id="word_list"></textarea>
+    <button id="create">Create</button>
+    
+    <br>
+    <canvas id="word_search_canvas" width="500" height="500"></canvas>
+
+    <script type="application/dart" src="wordsearch.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
