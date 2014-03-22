@@ -8,7 +8,7 @@ packages:
   constrained:
     description: constrained
     source: hosted
-    version: "0.0.2"
+    version: "0.0.3"
   path:
     description: path
     source: hosted
