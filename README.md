@@ -1,6 +1,8 @@
 Dart for Absolute Beginners
 ===========================
 
+**8/6/18 Note: With the release of Dart 2.0 and other changes to the Dart ecosystem, this book is now significantly outdated. I am regularly asked whether it is still a good starting point for new programmers and at this point, I would have to say no. I would look into newer resources. Dart for Absolute Beginners is deprecated.**
+
 **7/10/15 Note: As of Dart 1.11, the Dart team has discontinued Dart Editor, the IDE that the book utilizes throughout. All of the source code should still be valid, but was created structurally as Dart Editor projects. The book is not a tutorial on Dart Editor by any means and is mostly IDE neutral. You should be able to open the source in your own editor setup. Unfortunately I can't offer help with getting the code up and running in your custom setup.**
 
 Source Code for the Apress Book Dart for Absolute Beginners
